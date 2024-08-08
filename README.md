@@ -16,4 +16,4 @@ https://github.com/user-attachments/assets/6ef193b1-1913-4683-8455-eadb28556bc3
 
 One of the main reasons I used AWS for this project instead of using something like flask is so I can get some experience with AWS. Also this is more scalable and I don't have to maintain server infastructure for file uploads, conversions and such.
 
-However, I won't be hosting this due to unwanted AWS billing costs. ☹️
+However, I won't be hosting this due to unwanted AWS billing costs. ☹️ 😢
