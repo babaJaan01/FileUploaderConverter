@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+aws:
+  credentials:
+    accessKey: # aws access key
+    secretKey: # aws secret key
+  region: us-west-1
+  s3:
+    file-converter-shay

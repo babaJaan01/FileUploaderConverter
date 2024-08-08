@@ -1,0 +1,21 @@
+.mouse-aura {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background-image: radial-gradient(
+    circle at var(--mouse-x) var(--mouse-y),
+        rgba(63, 81, 181, 0.3) 0%, /* change every single one of these 3 % to make smaller or bigger aura*/
+        rgba(63, 81, 181, 0.15) 25%,
+        rgba(63, 81, 181, 0) 45%
+    );
+    z-index: 9999;
+
+    @media (hover: none) and (pointer: coarse) {
+        background-image: radial-gradient(
+            circle at top left,
+            rgba(63, 81, 181, 0.3) 0%,
+            rgba(63, 81, 181, 0.15) 25%,
+            rgba(63, 81, 181, 0) 45%
+        );
+    }
+}
