@@ -1,10 +1,19 @@
 # File Uploader -> Converter
 
-This is where you can upload a file and then convert it to a different file type.
+Upload a file and then convert it to a different file type.
 
-It sends the file to an AWS S3 bucket which is a trigger for an AWS Lambda Function with a layer that handles the processing and conversion.
+It sends the file to an AWS S3 bucket which is a trigger for an AWS Lambda Function with a layer for [FFmpeg](https://www.ffmpeg.org/) that handles the processing and conversion.
+
+The frontend has some simple styles borrowed from my [portfolio website](https://shayaant.vercel.app).
+
+# Demo
 
 
-One of the main reasons I used AWS for this is because with AWS I don't have to maintain server infastructure for file uploads and conversions and such.
 
-However, I will not be hosting this as a website due to unwanted AWS billing costs.
+https://github.com/user-attachments/assets/6ef193b1-1913-4683-8455-eadb28556bc3
+
+
+
+One of the main reasons I used AWS for this project instead of using something like flask is so I can get some experience with AWS. Also this is more scalable and I don't have to maintain server infastructure for file uploads, conversions and such.
+
+However, I won't be hosting this due to unwanted AWS billing costs. ☹️
