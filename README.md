@@ -1,6 +1,6 @@
 # File Uploader -> Converter
 
-Upload a file and then convert it to a different file type.
+Upload a file and then convert it to a different file type. Currently for MP4 to MP3 conversions.
 
 It sends the file to an AWS S3 bucket which is a trigger for an AWS Lambda Function with a layer for [FFmpeg](https://www.ffmpeg.org/) that handles the processing and conversion.
 
