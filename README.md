@@ -10,7 +10,8 @@ The frontend has some simple styles borrowed from my [portfolio website](https:/
 
 
 
-https://github.com/user-attachments/assets/6ef193b1-1913-4683-8455-eadb28556bc3
+
+https://github.com/user-attachments/assets/f17280f2-a239-4c3e-a258-2fdbf65033e0
 
 
 
