@@ -27,6 +27,8 @@ def lambda_handler(event, context):
     except Exception as e:
         logging.error("Error downloading file from S3: %s", e)
         raise e
+
+    logging.debug("ffmpeg path: %s", pydub.utils.which("ffmpeg"))
     
     try:
         mp4_audio = AudioSegment.from_file(BytesIO(file_stream), format="mp4")
