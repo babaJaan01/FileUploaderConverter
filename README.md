@@ -4,7 +4,7 @@ Upload a file and then convert it to a different file type. Currently for MP4 to
 
 It sends the file to an AWS S3 bucket which is a trigger for an AWS Lambda Function with a layer for [FFmpeg](https://www.ffmpeg.org/) that handles the processing and conversion.
 
-The frontend has some simple styles borrowed from my [portfolio website](https://shayaant.vercel.app).
+The frontend has some very simple styles just for proof of concept.
 
 # Demo
 
